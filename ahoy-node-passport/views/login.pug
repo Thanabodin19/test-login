@@ -15,4 +15,7 @@ block content
 
       button(class="btn btn-primary btn-block" type="submit") Login
 
+      if message
+        p.alert.alert-danger #{message}
+
       a(href="/register", class="btn btn-link") Don't have an account?
